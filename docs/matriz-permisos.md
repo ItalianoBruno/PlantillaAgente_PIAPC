@@ -4,15 +4,16 @@ Completa esta matriz antes de habilitar acciones de un agente. Una accion no dec
 
 | Accion | Estado | Alcance o justificacion |
 |---|---|---|
-| Leer archivos del proyecto | [Permitida/Pendiente/Prohibida] | [PENDIENTE] |
-| Buscar rutas y simbolos | [Permitida/Pendiente/Prohibida] | [PENDIENTE] |
-| Editar archivos previstos | [Permitida/Pendiente/Prohibida] | [PENDIENTE] |
-| Ejecutar scripts documentados | [Permitida/Pendiente/Prohibida] | [PENDIENTE] |
-| Instalar dependencias | [Permitida/Pendiente/Prohibida] | [PENDIENTE] |
-| Usar red | [Permitida/Pendiente/Prohibida] | [PENDIENTE] |
-| Publicar o subir cambios | [Permitida/Pendiente/Prohibida] | [PENDIENTE] |
+| Leer archivos del proyecto | Permitida | Lectura de plantillas para auditoria y contexto. |
+| Buscar rutas y simbolos | Permitida | Glob y busqueda para verificar estructura real. |
+| Editar archivos previstos | Pendiente | Solo README.md y docs/ de proceso, bajo confirmacion. |
+| Ejecutar scripts documentados | Prohibida | Aun no hay proyectos del motor ni scripts. Git queda autorizado como herramienta documentada para reconciliar y publicar el estado actual. |
+| Instalar dependencias | Prohibida | No se instalara nada sin autorizacion. |
+| Usar red | Prohibida | No corresponde. |
+| Publicar o subir cambios | Permitida | Solo el push del estado autorizado al remoto `ItalianoBruno/PlantillaAgente_PIAPC`. Autorizado por el estudiante el 2026-09-09. |
 | Acceder a secretos o credenciales | Prohibida | No corresponde al trabajo. |
 
 ## Condiciones de detencion
 
-- [Situacion que obliga a detener la herramienta y consultar.]
+- Detener y consultar si se detecta un proyecto del motor no declarado, cambios ajenos a la plantilla, o si la consigna modifica el alcance de la auditoria.
+- Detener y consultar si una edicion o validacion falla sin causa comprendida.

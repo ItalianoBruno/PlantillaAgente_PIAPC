@@ -13,10 +13,10 @@ Esta plantilla prepara un repositorio publico e individual para proyectos academ
 
 ## Datos del proyecto
 
-- Estudiante: [PENDIENTE]
-- Materia, comision y anio: [PENDIENTE]
+- Estudiante: Italiano Bruno
+- Materia, comision y anio: PIAPC, VJ, 2026
 - Nombre del proyecto: [PENDIENTE]
-- Motor y version: [PENDIENTE]
+- Motor y version: Godot 4.x
 - Estado: [PENDIENTE]
 
 ## Descripcion
