@@ -1,0 +1,62 @@
+Resumen de estado - Proyecto PIAPC (parcial 1: desarrollo agentico documentado)
+================================================================================
+Fecha de ultima actualizacion: 2026-09-09.
+Proposito de este archivo: punto de retoma al continuar el trabajo desde otra
+maquina. No contiene claves, credenciales ni datos privados.
+
+1) Contexto
+- Plantilla academica PIAPC para un proyecto individual de videojuegos.
+- Repositorio publico: https://github.com/ItalianoBruno/PlantillaAgente_PIAPC
+- Rama principal: main.
+- Consigna del parcial: docs/Consigna.txt (entregable hasta 2026-09-15 23:59).
+
+2) Datos del proyecto
+- Estudiante: Italiano Bruno.
+- Materia/comision/anio: PIAPC, VJ, 2026.
+- Motor y version: Godot 4.x.
+- Nombre del proyecto y estado: [PENDIENTE] (los define la consigna de clase).
+
+3) Estado git
+- Commit inicial conservado: f1decb0 (creado desde el template de la catedra).
+- Commit de trabajo: 4ac071f (auditoria inicial, matriz de permisos, registro
+  de intervencion y carga de docs/Consigna.txt).
+- Commit del resumen: agregado en esta sesion.
+- Al retomar: clonar el repo y trabajar sobre main.
+
+4) Artefactos ya completados
+- docs/auditoria-repositorio.md: hechos verificables. El repo contenia solo la
+  plantilla; NO habia proyecto del motor (sin project.godot, *.tscn, *.gd) ni
+  binario de Godot detectado en el PATH al momento de auditar.
+- docs/matriz-permisos.md: lectura y busqueda permitidas; edicion Pendiente
+  (solo archivos aprobados); instalar dependencias, usar red, publicar y
+  secretos prohibidos, con excepcion puntual autorizada para el push.
+- docs/registro-intervencion.md: acciones y decisiones humanas registradas.
+- README.md: datos del proyecto completados; nombre y estado [PENDIENTE].
+
+5) Pendientes en orden (paso 1 de la consigna)
+1) Definir la situacion de comportamiento presentada por la catedra en clase
+   (entidad, problema actual, comportamiento esperado). Sin esto NO se completa
+   el GDD ni se define alcance.
+2) GDD.md: experiencia de juego, problema, reglas, limites y caso limite.
+3) docs/especificacion.md: alcance, restricciones y criterios observables que
+   describan estimulo y resultado verificable.
+4) docs/plan.md: cambios minimos vinculados a archivos, verificaciones, riesgos
+   y condiciones de detencion.
+5) Implementacion minima del cambio aprobado (crear el proyecto Godot cuando
+   la consigna lo defina y agregar el .gitignore del motor).
+6) docs/evidencia-pruebas.md: camino principal + caso limite reproducible.
+7) docs/informe-final.md: decisiones, controles humanos, limites y riesgos.
+8) Commit final evaluable e identificacion en la plataforma de entrega.
+
+6) Condiciones de detencion/consulta
+- Zurca a falta de una decision de diseno (la situacion de clase) antes de
+  completar GDD/especificacion/plan; no inventar alcance no definido por la
+  consigna.
+- Consultar antes de instalar dependencias, usar red fuera de git, publicar o
+  acceder a secretos. Actualizar la matriz de permisos antes de habilitar
+  escritura del agente.
+- Detenerse ante validaciones fallidas sin causa comprendida.
+
+7) Nota de entorno
+- Esta sesion se trabajo en una maquina cuya limpieza local se realizo al
+  finalizar; el repositorio remoto es la unica copia de trabajo.
